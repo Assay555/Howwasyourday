@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
+#include "Header.h"
 using namespace std;
-int main()
+void main()
 {
 	cout << "Hur har din dag varit idag mellan 1-10?" << endl;
 	string input;
@@ -9,43 +10,43 @@ int main()
 	cin >> input;
 	while (true) {
 		if (input == "10") {
-			cout << "Vad roligt!" << endl;
+			cout << svar10 << endl;
 			break;
 		}
 		else if (input == "9") {
-			cout << "Trevligt, trevligt" << endl;
+			cout << svar9 << endl;
 			break;
 		}
 		else if (input == "8") {
-			cout << "" << endl;
+			cout << svar8 << endl;
 			break;
 		}
 		else if (input == "7") {
-			cout << "" << endl;
+			cout << svar7 << endl;
 			break;
 		}
 		else if (input == "6") {
-			cout << "" << endl;
+			cout << svar6 << endl;
 			break;
 		}
 		else if (input == "5") {
-			cout << "" << endl;
+			cout << svar5 << endl;
 			break;
 		}
 		else if (input == "4") {
-			cout << "" << endl;
+			cout << svar4 << endl;
 			break;
 		}
 		else if (input == "3") {
-			cout << "" << endl;
+			cout << svar3 << endl;
 			break;
 		}
 		else if (input == "2") {
-			cout << "" << endl;
+			cout << svar2 << endl;
 			break;
 		}
 		else if (input == "1") {
-			cout << "KRAAAAAM!!!" << endl;
+			cout << svar1 << endl;
 			break;
 		}
 		else {
@@ -54,5 +55,4 @@ int main()
 		}
 	}
 	system("pause");
-	return 0;
 }

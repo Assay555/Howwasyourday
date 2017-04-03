@@ -1,0 +1,11 @@
+#pragma once
+#define svar10 "Vad roligt!"
+#define svar9 "Trevligt, trevligt"
+#define svar8 "Vad bra"
+#define svar7 "Har du tur idag?"
+#define svar6 "Lagom helt enkelt"
+#define svar5 "Precis som alla andra svenskar"
+#define svar4 "Ring Adrian"
+#define svar3 "Same"
+#define svar2 "Cri"
+#define svar1 "Kraaaaam!!!"
